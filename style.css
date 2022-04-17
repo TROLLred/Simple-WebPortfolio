@@ -114,7 +114,7 @@ nav #menu li {
     font-weight: 300;
     line-height: 80px;
     position: relative;
-    transition: all 0.3 ease-out;
+    transition: all 0.3s ease-out;
 }
 
 nav #menu li span {
@@ -407,10 +407,6 @@ h6 {
 .info li {
     list-style: none;
     display: inline-block;
-
-    font-weight: lighter;
-    color: var(--text-color);
-    font-size: 18px;
     padding-left: 20px;
 }
 
@@ -423,20 +419,49 @@ h6 {
     margin-right: 6px;
 }
 
+.info li a {
+    display: inline-block;
+    font-weight: lighter;
+    color: var(--text-color);
+    font-size: 18px;
+
+    transition: all 0.3s ease-out;
+}
+
+.info li a:hover {
+    text-decoration: none;
+}
+
 #vk::before {
     background: #3b5998;
+}
+
+#vk a:hover {
+    color: #3b5998;
 }
 
 #ig::before {
     background: #fcaf45;
 }
 
+#ig a:hover {
+    color: #fcaf45;
+}
+
 #tg::before {
     background: #55acee;
 }
 
+#tg a:hover {
+    color: #55acee;
+}
+
 #gh::before {
     background: #c4302b;
+}
+
+#gh a:hover {
+    color: #c4302b;
 }
 
 #media, #address {
