@@ -602,6 +602,10 @@ textarea:focus {
     color: #101010;
 }
 
+.send:active {
+    outline: none;
+}
+
 @media (max-width:768px) {
     #contact-form {
         margin: 5% -8%;
